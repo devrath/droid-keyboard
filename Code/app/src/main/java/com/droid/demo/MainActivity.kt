@@ -1,12 +1,11 @@
-package com.droid.demo.api
+package com.droid.demo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.droid.demo.R
 
-class InputFocusManagerApiActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_api_input_focus_manager)
+        setContentView(R.layout.activity_main)
     }
 }

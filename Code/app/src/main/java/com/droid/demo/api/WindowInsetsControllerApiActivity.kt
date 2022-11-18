@@ -1,11 +1,12 @@
-package com.droid.demo
+package com.droid.demo.api
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.droid.demo.R
 
-class MainActivity : AppCompatActivity() {
+class WindowInsetsControllerApiActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_api_window_insets_controller)
     }
 }

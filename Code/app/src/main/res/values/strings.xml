@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">keyboard</string>
+    <string name="api_s">API\'s</string>
+    <string name="txt_focus">FOCUS</string>
+    <string name="input_focus_manager">Input focus manager</string>
+    <string name="window_insets_controller">Window insets controller</string>
+</resources>

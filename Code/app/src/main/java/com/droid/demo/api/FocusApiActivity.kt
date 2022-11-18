@@ -1,11 +1,18 @@
-package com.droid.demo
+package com.droid.demo.api
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.droid.demo.R
+import com.droid.demo.databinding.ActivityApiFocusBinding
 
-class MainActivity : AppCompatActivity() {
+class FocusApiActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityApiFocusBinding
+    
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityApiFocusBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
     }
 }
