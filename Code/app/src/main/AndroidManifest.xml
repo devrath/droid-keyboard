@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Keyboard"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".api.InputFocusManagerApiActivity"
             android:label="@string/api_s"
             android:exported="true">
             <intent-filter>
